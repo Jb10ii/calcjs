@@ -16,20 +16,8 @@ const calculate = (number1, number2, operation) => {
     } else if (operation === 'multiply') {
         result = number1 * number2;
     } else if (operation === 'divide') {
-        if (number1 === 0) {
-            return "undefined";
-        }
-        if (number2 === 0) {
-            return "undefined";
-        }
         result = number1 / number2;
     } else if (operation === 'modulus') {
-        if (number1 === 0) {
-            return "undefined";
-        }
-        if (number2 === 0) {
-            return "undefined";
-        }
         result = number1 % number2;
     } else {
         result = "Invalid operation";
